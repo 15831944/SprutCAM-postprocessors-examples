@@ -4,8 +4,8 @@
 
 <Settings Version="1.0">
     <Description>
-        <Comments>SprutCAM postprocessor of standard delivery</Comments>
-        <CNCSystem>Fanuc (30i) mill</CNCSystem>
+        <Comments></Comments>
+        <CNCSystem></CNCSystem>
         <MachineName></MachineName>
         <Authors></Authors>
     </Description>
@@ -20,12 +20,7 @@
     </Common>
     <UserDefinedParameters>
         <Group ID="OutFiles" Caption="$(OutputFiles)">
-            <Parameter ID="NCFileName" Caption="$(NCFileName)" Type="FileName"></Parameter>
-            <Parameter ID="NCProgNumber" Caption="$(NCProgNumber)" Type="Integer">1</Parameter>
-        </Group>
-        <Group ID="BlockFormat" Caption="Format of nc-block">
-            <Parameter ID="Numbering" Caption="Numbering" Type="Boolean">true</Parameter>
-            <Parameter ID="Spaces" Caption="Spaces between codes" Type="Boolean">true</Parameter>
+            <Parameter ID="NCFileName" Caption="$(NCFileName)" Type="FileName" />
         </Group>
     </UserDefinedParameters>
 </Settings>
