@@ -4,10 +4,10 @@
 
 <Settings Version="1.0">
     <Description>
-        <Comments />
-        <CNCSystem />
-        <MachineName />
-        <Authors />
+        <Comments></Comments>
+        <CNCSystem></CNCSystem>
+        <MachineName>Sinumerik (840D) TurnMill</MachineName>
+        <Authors>razrez</Authors>
     </Description>
     <Common>
         <!-- No, Cuts, Halfs, Quaters -->
@@ -21,12 +21,7 @@
     <UserDefinedParameters>
         <Group ID="OutFiles" Caption="$(OutputFiles)">
             <Parameter ID="NCFileName" Caption="$(NCFileName)" Type="FileName" />
-            <Parameter ID="NCProgName" Caption="NC program name" Type="String" />
-            <Parameter ID="OutWCS" Caption="WCS output" Type="Boolean" >true</Parameter>
-            <Parameter ID="UseCycle19" Caption="Local CS ouput mode" Type="Boolean" >
-                <Value Caption="PLANE SPATIAL" Default="true">false</Value>
-                <Value Caption="CYCLE 19">true</Value>
-            </Parameter>
+            <Parameter ID="NCProgNumber" Caption="$(NCProgNumber)" Type="Integer">1</Parameter>
         </Group>
     </UserDefinedParameters>
 </Settings>
